@@ -101,13 +101,3 @@ class City_knowledges:
         for i in self.flst:
             for j in i:
                 print(wikipedia.summary(i))
-
-
-def check():
-    cities = ['Lviv', 'Ternopil', 'Kiev']
-    a = City_knowledges(3, cities)
-    a.add_info()
-    print(a)
-    print("Attention")
-    a.summary()
-check()
